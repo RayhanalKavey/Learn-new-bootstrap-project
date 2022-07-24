@@ -10,7 +10,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Edu NSW ACT Foundation", cursive;
 }
+/* font-family: "Cormorant SC", serif; */
 html {
   scroll-behavior: smooth;
 }
