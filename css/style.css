@@ -39,3 +39,27 @@ body {
 .navbar {
   background-color: rgba(0, 0, 0, 0.3);
 }
+.fa {
+  color: #5f2c11;
+}
+
+.banner-content button {
+  text-shadow: 2px 5px 6px #5f2c11;
+  font-weight: 600;
+  color: var(--light-text-color);
+}
+
+.navbar-nav .nav-link,
+.banner-content button {
+  color: var(--light-text-color);
+}
+.fa:hover,
+.navbar-nav .nav-link:hover,
+.banner-content button:hover {
+  color: rgba(95, 44, 17);
+}
+.fa:active,
+.navbar-nav .nav-link:active,
+.banner-content button:active {
+  background-color: var(--light-brown-color);
+}
