@@ -35,9 +35,10 @@ body {
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91vh);
   background-attachment: fixed;
+  margin-bottom: 5rem;
 }
 .navbar {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .banner-container {
   height: 98vh;
@@ -81,6 +82,19 @@ Features section
   background-color: var(--light-background-color);
 }
 .features-col {
-  border: 1px solid var(--dark-brown-color);
+  box-shadow: 0px 5px 20px rgba(95, 44, 17, 0.944);
+  /* border: 1px solid var(--dark-brown-color); */
+  transition: all 0.4s;
+}
+.features-col:hover {
+  transform: translateY(-0.3rem);
+}
+.features-col:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0px 3px 10px rgba(95, 44, 17, 0.944);
+}
+.icon-style {
+  background-color: #c68951;
+  color: var(--light-text-color);
 }
 /* Featureseader section ends */
