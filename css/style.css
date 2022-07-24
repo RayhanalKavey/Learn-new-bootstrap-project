@@ -1,0 +1,39 @@
+:root {
+  /* Colors */
+  --light-brown-color: #eca15a;
+  --medium-brown-color: #c68951;
+  --dark-brown-color: #5f2c11;
+  --light-text-color: #dfd9d9;
+  --light-background-color: #dfd9d9;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-weight: 500;
+}
+/* ================
+   Header section 
+   ================*/
+.header {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(236, 161, 90, 0.7),
+      rgba(95, 44, 17, 0.702)
+    ),
+    url(../img/banner.jpg);
+  height: 98vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91vh);
+  background-attachment: fixed;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3);
+}
