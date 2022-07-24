@@ -39,6 +39,15 @@ body {
 .navbar {
   background-color: rgba(0, 0, 0, 0.3);
 }
+.banner-container {
+  height: 98vh;
+}
+.banner-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 2px 5px 6px #5f2c11;
+  color: var(--light-text-color);
+}
 .fa {
   color: #5f2c11;
 }
