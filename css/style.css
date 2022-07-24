@@ -72,3 +72,15 @@ body {
 .banner-content button:active {
   background-color: var(--light-brown-color);
 }
+/* Header section ends */
+/* ================
+Features section 
+================*/
+#features {
+  padding: 5% 10%;
+  background-color: var(--light-background-color);
+}
+.features-col {
+  border: 1px solid var(--dark-brown-color);
+}
+/* Featureseader section ends */
