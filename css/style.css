@@ -10,14 +10,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Edu NSW ACT Foundation", cursive;
 }
 /* font-family: "Cormorant SC", serif; */
 html {
   scroll-behavior: smooth;
 }
 body {
-  font-weight: 500;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-weight: 600;
 }
 /* ================
    Header section 
@@ -53,27 +53,25 @@ body {
   color: #5f2c11;
 }
 
-.banner-content button {
-  text-shadow: 2px 5px 6px #5f2c11;
-  font-weight: 600;
+/* Header section ends */
+.button:link,
+.button:visited {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+  background-color: var(--medium-brown-color);
   color: var(--light-text-color);
+  transition: all 0.2s;
+}
+.button:hover {
+  transform: translateY(-3px);
 }
 
-.navbar-nav .nav-link,
-.banner-content button {
-  color: var(--light-text-color);
+.button:active {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+  transform: translateY(-1px);
 }
-.fa:hover,
-.navbar-nav .nav-link:hover,
-.banner-content button:hover {
-  color: rgba(95, 44, 17);
-}
-.fa:active,
-.navbar-nav .nav-link:active,
-.banner-content button:active {
-  background-color: var(--light-brown-color);
-}
-/* Header section ends */
 /* ================
 Features section 
 ================*/
@@ -82,16 +80,16 @@ Features section
   background-color: var(--light-background-color);
 }
 .features-col {
-  box-shadow: 0px 5px 20px rgba(95, 44, 17, 0.944);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
   /* border: 1px solid var(--dark-brown-color); */
-  transition: all 0.4s;
+  transition: all 0.2s;
 }
 .features-col:hover {
   transform: translateY(-0.3rem);
 }
 .features-col:active {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
   transform: translateY(-0.1rem);
-  box-shadow: 0px 3px 10px rgba(95, 44, 17, 0.944);
 }
 .icon-style {
   background-color: #c68951;
