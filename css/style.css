@@ -22,7 +22,7 @@ body {
 /* ================
    Header section 
    ================*/
-.header {
+.banner-section {
   background-image: linear-gradient(
       to right bottom,
       rgba(236, 161, 90, 0.7),
@@ -77,7 +77,7 @@ body {
 /* ================
 Features section 
 ================*/
-#features {
+.features {
   padding: 5% 10%;
   background-color: var(--light-background-color);
 }
